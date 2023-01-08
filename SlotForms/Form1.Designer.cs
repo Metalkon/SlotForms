@@ -32,48 +32,48 @@
             this.labelCash = new System.Windows.Forms.Label();
             this.labelBid = new System.Windows.Forms.Label();
             this.labelFreeSpins = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableMain = new System.Windows.Forms.TableLayoutPanel();
+            this.tableBid = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableOptions = new System.Windows.Forms.TableLayoutPanel();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.slot_a1 = new System.Windows.Forms.PictureBox();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.slot_a1)).BeginInit();
+            this.tableSlots = new System.Windows.Forms.TableLayoutPanel();
+            this.imgSlot_c5 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_c4 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_c3 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_c2 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_c1 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_b5 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_b4 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_b3 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_b2 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_b1 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_a5 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_a4 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_a3 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_a2 = new System.Windows.Forms.PictureBox();
+            this.imgSlot_a1 = new System.Windows.Forms.PictureBox();
+            this.tableMain.SuspendLayout();
+            this.tableBid.SuspendLayout();
+            this.tableOptions.SuspendLayout();
+            this.tableSlots.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a1)).BeginInit();
             this.SuspendLayout();
             // 
             // spinButton
@@ -82,9 +82,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.spinButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.spinButton.Location = new System.Drawing.Point(603, 45);
+            this.spinButton.Location = new System.Drawing.Point(570, 45);
             this.spinButton.Name = "spinButton";
-            this.spinButton.Size = new System.Drawing.Size(194, 36);
+            this.spinButton.Size = new System.Drawing.Size(183, 36);
             this.spinButton.TabIndex = 0;
             this.spinButton.Text = "SPIN";
             this.spinButton.UseVisualStyleBackColor = true;
@@ -100,7 +100,7 @@
             this.labelCash.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelCash.Location = new System.Drawing.Point(3, 0);
             this.labelCash.Name = "labelCash";
-            this.labelCash.Size = new System.Drawing.Size(394, 42);
+            this.labelCash.Size = new System.Drawing.Size(372, 42);
             this.labelCash.TabIndex = 1;
             this.labelCash.Text = "Cash: N/A";
             this.labelCash.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -113,9 +113,9 @@
             this.labelBid.BackColor = System.Drawing.SystemColors.Control;
             this.labelBid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelBid.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelBid.Location = new System.Drawing.Point(403, 0);
+            this.labelBid.Location = new System.Drawing.Point(381, 0);
             this.labelBid.Name = "labelBid";
-            this.labelBid.Size = new System.Drawing.Size(194, 42);
+            this.labelBid.Size = new System.Drawing.Size(183, 42);
             this.labelBid.TabIndex = 2;
             this.labelBid.Text = "Bid: N/A";
             this.labelBid.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -128,55 +128,55 @@
             this.labelFreeSpins.BackColor = System.Drawing.SystemColors.Control;
             this.labelFreeSpins.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelFreeSpins.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelFreeSpins.Location = new System.Drawing.Point(603, 0);
+            this.labelFreeSpins.Location = new System.Drawing.Point(570, 0);
             this.labelFreeSpins.Name = "labelFreeSpins";
-            this.labelFreeSpins.Size = new System.Drawing.Size(194, 42);
+            this.labelFreeSpins.Size = new System.Drawing.Size(183, 42);
             this.labelFreeSpins.TabIndex = 3;
             this.labelFreeSpins.Text = "Free Spins: N/A";
             this.labelFreeSpins.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // tableLayoutPanel1
+            // tableMain
             // 
-            this.tableLayoutPanel1.AutoSize = true;
-            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this.labelCash, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.spinButton, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.labelFreeSpins, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.labelBid, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel4, 0, 1);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 84);
-            this.tableLayoutPanel1.TabIndex = 4;
+            this.tableMain.AutoSize = true;
+            this.tableMain.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableMain.ColumnCount = 3;
+            this.tableMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableMain.Controls.Add(this.labelCash, 0, 0);
+            this.tableMain.Controls.Add(this.spinButton, 2, 1);
+            this.tableMain.Controls.Add(this.labelFreeSpins, 2, 0);
+            this.tableMain.Controls.Add(this.labelBid, 1, 0);
+            this.tableMain.Controls.Add(this.tableBid, 1, 1);
+            this.tableMain.Controls.Add(this.tableOptions, 0, 1);
+            this.tableMain.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableMain.Location = new System.Drawing.Point(0, 0);
+            this.tableMain.Name = "tableMain";
+            this.tableMain.RowCount = 2;
+            this.tableMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableMain.Size = new System.Drawing.Size(756, 84);
+            this.tableMain.TabIndex = 4;
             // 
-            // tableLayoutPanel3
+            // tableBid
             // 
-            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tableBid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel3.AutoSize = true;
-            this.tableLayoutPanel3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.button2, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(403, 45);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(194, 36);
-            this.tableLayoutPanel3.TabIndex = 4;
+            this.tableBid.AutoSize = true;
+            this.tableBid.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableBid.ColumnCount = 2;
+            this.tableBid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableBid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableBid.Controls.Add(this.button2, 0, 0);
+            this.tableBid.Controls.Add(this.button1, 0, 0);
+            this.tableBid.Location = new System.Drawing.Point(381, 45);
+            this.tableBid.Name = "tableBid";
+            this.tableBid.RowCount = 1;
+            this.tableBid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableBid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableBid.Size = new System.Drawing.Size(183, 36);
+            this.tableBid.TabIndex = 4;
             // 
             // button2
             // 
@@ -184,9 +184,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(100, 3);
+            this.button2.Location = new System.Drawing.Point(94, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(91, 30);
+            this.button2.Size = new System.Drawing.Size(86, 30);
             this.button2.TabIndex = 2;
             this.button2.Text = "+";
             this.button2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -200,32 +200,32 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 30);
+            this.button1.Size = new System.Drawing.Size(85, 30);
             this.button1.TabIndex = 1;
             this.button1.Text = "-";
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel4
+            // tableOptions
             // 
-            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tableOptions.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel4.AutoSize = true;
-            this.tableLayoutPanel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayoutPanel4.ColumnCount = 3;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.Controls.Add(this.checkBox2, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.checkBox1, 0, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 45);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(394, 36);
-            this.tableLayoutPanel4.TabIndex = 5;
+            this.tableOptions.AutoSize = true;
+            this.tableOptions.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableOptions.ColumnCount = 3;
+            this.tableOptions.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableOptions.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableOptions.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableOptions.Controls.Add(this.checkBox2, 1, 0);
+            this.tableOptions.Controls.Add(this.checkBox1, 0, 0);
+            this.tableOptions.Location = new System.Drawing.Point(3, 45);
+            this.tableOptions.Name = "tableOptions";
+            this.tableOptions.RowCount = 1;
+            this.tableOptions.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableOptions.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableOptions.Size = new System.Drawing.Size(372, 36);
+            this.tableOptions.TabIndex = 5;
             // 
             // checkBox2
             // 
@@ -235,9 +235,9 @@
             this.checkBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkBox2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox2.Location = new System.Drawing.Point(134, 3);
+            this.checkBox2.Location = new System.Drawing.Point(127, 3);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(125, 30);
+            this.checkBox2.Size = new System.Drawing.Size(118, 30);
             this.checkBox2.TabIndex = 1;
             this.checkBox2.Text = "Music";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -252,242 +252,245 @@
             this.checkBox1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.checkBox1.Location = new System.Drawing.Point(3, 3);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(125, 30);
+            this.checkBox1.Size = new System.Drawing.Size(118, 30);
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Sounds";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel2
+            // tableSlots
             // 
-            this.tableLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel2.ColumnCount = 5;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox14, 4, 2);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox13, 3, 2);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox12, 2, 2);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox11, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox10, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox9, 4, 1);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox8, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox7, 2, 1);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox6, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox5, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox4, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox3, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox2, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.slot_a1, 0, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 84);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 3;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(800, 366);
-            this.tableLayoutPanel2.TabIndex = 5;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tableSlots.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox14.Location = new System.Drawing.Point(640, 246);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(156, 116);
-            this.pictureBox14.TabIndex = 14;
-            this.pictureBox14.TabStop = false;
+            this.tableSlots.AutoSize = true;
+            this.tableSlots.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableSlots.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableSlots.ColumnCount = 5;
+            this.tableSlots.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableSlots.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableSlots.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableSlots.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableSlots.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableSlots.Controls.Add(this.imgSlot_c5, 4, 2);
+            this.tableSlots.Controls.Add(this.imgSlot_c4, 3, 2);
+            this.tableSlots.Controls.Add(this.imgSlot_c3, 2, 2);
+            this.tableSlots.Controls.Add(this.imgSlot_c2, 1, 2);
+            this.tableSlots.Controls.Add(this.imgSlot_c1, 0, 2);
+            this.tableSlots.Controls.Add(this.imgSlot_b5, 4, 1);
+            this.tableSlots.Controls.Add(this.imgSlot_b4, 3, 1);
+            this.tableSlots.Controls.Add(this.imgSlot_b3, 2, 1);
+            this.tableSlots.Controls.Add(this.imgSlot_b2, 1, 1);
+            this.tableSlots.Controls.Add(this.imgSlot_b1, 0, 1);
+            this.tableSlots.Controls.Add(this.imgSlot_a5, 4, 0);
+            this.tableSlots.Controls.Add(this.imgSlot_a4, 3, 0);
+            this.tableSlots.Controls.Add(this.imgSlot_a3, 2, 0);
+            this.tableSlots.Controls.Add(this.imgSlot_a2, 1, 0);
+            this.tableSlots.Controls.Add(this.imgSlot_a1, 0, 0);
+            this.tableSlots.Location = new System.Drawing.Point(0, 84);
+            this.tableSlots.Name = "tableSlots";
+            this.tableSlots.RowCount = 3;
+            this.tableSlots.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableSlots.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableSlots.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableSlots.Size = new System.Drawing.Size(756, 454);
+            this.tableSlots.TabIndex = 5;
             // 
-            // pictureBox13
+            // imgSlot_c5
             // 
-            this.pictureBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_c5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox13.Location = new System.Drawing.Point(481, 246);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(152, 116);
-            this.pictureBox13.TabIndex = 13;
-            this.pictureBox13.TabStop = false;
+            this.imgSlot_c5.Location = new System.Drawing.Point(608, 306);
+            this.imgSlot_c5.Name = "imgSlot_c5";
+            this.imgSlot_c5.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_c5.TabIndex = 14;
+            this.imgSlot_c5.TabStop = false;
             // 
-            // pictureBox12
+            // imgSlot_c4
             // 
-            this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_c4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox12.Location = new System.Drawing.Point(322, 246);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(152, 116);
-            this.pictureBox12.TabIndex = 12;
-            this.pictureBox12.TabStop = false;
+            this.imgSlot_c4.Location = new System.Drawing.Point(457, 306);
+            this.imgSlot_c4.Name = "imgSlot_c4";
+            this.imgSlot_c4.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_c4.TabIndex = 13;
+            this.imgSlot_c4.TabStop = false;
             // 
-            // pictureBox11
+            // imgSlot_c3
             // 
-            this.pictureBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_c3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox11.Location = new System.Drawing.Point(163, 246);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(152, 116);
-            this.pictureBox11.TabIndex = 11;
-            this.pictureBox11.TabStop = false;
+            this.imgSlot_c3.Location = new System.Drawing.Point(306, 306);
+            this.imgSlot_c3.Name = "imgSlot_c3";
+            this.imgSlot_c3.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_c3.TabIndex = 12;
+            this.imgSlot_c3.TabStop = false;
             // 
-            // pictureBox10
+            // imgSlot_c2
             // 
-            this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_c2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox10.Location = new System.Drawing.Point(4, 246);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(152, 116);
-            this.pictureBox10.TabIndex = 10;
-            this.pictureBox10.TabStop = false;
+            this.imgSlot_c2.Location = new System.Drawing.Point(155, 306);
+            this.imgSlot_c2.Name = "imgSlot_c2";
+            this.imgSlot_c2.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_c2.TabIndex = 11;
+            this.imgSlot_c2.TabStop = false;
             // 
-            // pictureBox9
+            // imgSlot_c1
             // 
-            this.pictureBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_c1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox9.Location = new System.Drawing.Point(640, 125);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(156, 114);
-            this.pictureBox9.TabIndex = 9;
-            this.pictureBox9.TabStop = false;
+            this.imgSlot_c1.Location = new System.Drawing.Point(4, 306);
+            this.imgSlot_c1.Name = "imgSlot_c1";
+            this.imgSlot_c1.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_c1.TabIndex = 10;
+            this.imgSlot_c1.TabStop = false;
             // 
-            // pictureBox8
+            // imgSlot_b5
             // 
-            this.pictureBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_b5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox8.Location = new System.Drawing.Point(481, 125);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(152, 114);
-            this.pictureBox8.TabIndex = 8;
-            this.pictureBox8.TabStop = false;
+            this.imgSlot_b5.Location = new System.Drawing.Point(608, 155);
+            this.imgSlot_b5.Name = "imgSlot_b5";
+            this.imgSlot_b5.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_b5.TabIndex = 9;
+            this.imgSlot_b5.TabStop = false;
             // 
-            // pictureBox7
+            // imgSlot_b4
             // 
-            this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_b4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox7.Location = new System.Drawing.Point(322, 125);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(152, 114);
-            this.pictureBox7.TabIndex = 7;
-            this.pictureBox7.TabStop = false;
+            this.imgSlot_b4.Location = new System.Drawing.Point(457, 155);
+            this.imgSlot_b4.Name = "imgSlot_b4";
+            this.imgSlot_b4.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_b4.TabIndex = 8;
+            this.imgSlot_b4.TabStop = false;
             // 
-            // pictureBox6
+            // imgSlot_b3
             // 
-            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_b3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox6.Location = new System.Drawing.Point(163, 125);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(152, 114);
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.imgSlot_b3.Location = new System.Drawing.Point(306, 155);
+            this.imgSlot_b3.Name = "imgSlot_b3";
+            this.imgSlot_b3.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_b3.TabIndex = 7;
+            this.imgSlot_b3.TabStop = false;
             // 
-            // pictureBox5
+            // imgSlot_b2
             // 
-            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_b2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox5.Location = new System.Drawing.Point(4, 125);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(152, 114);
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
+            this.imgSlot_b2.Location = new System.Drawing.Point(155, 155);
+            this.imgSlot_b2.Name = "imgSlot_b2";
+            this.imgSlot_b2.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_b2.TabIndex = 6;
+            this.imgSlot_b2.TabStop = false;
             // 
-            // pictureBox4
+            // imgSlot_b1
             // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_b1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.Location = new System.Drawing.Point(640, 4);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(156, 114);
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
+            this.imgSlot_b1.Location = new System.Drawing.Point(4, 155);
+            this.imgSlot_b1.Name = "imgSlot_b1";
+            this.imgSlot_b1.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_b1.TabIndex = 5;
+            this.imgSlot_b1.TabStop = false;
             // 
-            // pictureBox3
+            // imgSlot_a5
             // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_a5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.Location = new System.Drawing.Point(481, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(152, 114);
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
+            this.imgSlot_a5.Location = new System.Drawing.Point(608, 4);
+            this.imgSlot_a5.Name = "imgSlot_a5";
+            this.imgSlot_a5.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_a5.TabIndex = 4;
+            this.imgSlot_a5.TabStop = false;
             // 
-            // pictureBox2
+            // imgSlot_a4
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_a4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Location = new System.Drawing.Point(322, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(152, 114);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.imgSlot_a4.Location = new System.Drawing.Point(457, 4);
+            this.imgSlot_a4.Name = "imgSlot_a4";
+            this.imgSlot_a4.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_a4.TabIndex = 3;
+            this.imgSlot_a4.TabStop = false;
             // 
-            // pictureBox1
+            // imgSlot_a3
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_a3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(163, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(152, 114);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.imgSlot_a3.Location = new System.Drawing.Point(306, 4);
+            this.imgSlot_a3.Name = "imgSlot_a3";
+            this.imgSlot_a3.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_a3.TabIndex = 2;
+            this.imgSlot_a3.TabStop = false;
             // 
-            // slot_a1
+            // imgSlot_a2
             // 
-            this.slot_a1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.imgSlot_a2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.slot_a1.Location = new System.Drawing.Point(4, 4);
-            this.slot_a1.Name = "slot_a1";
-            this.slot_a1.Size = new System.Drawing.Size(152, 114);
-            this.slot_a1.TabIndex = 0;
-            this.slot_a1.TabStop = false;
+            this.imgSlot_a2.Location = new System.Drawing.Point(155, 4);
+            this.imgSlot_a2.Name = "imgSlot_a2";
+            this.imgSlot_a2.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_a2.TabIndex = 1;
+            this.imgSlot_a2.TabStop = false;
+            // 
+            // imgSlot_a1
+            // 
+            this.imgSlot_a1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgSlot_a1.Location = new System.Drawing.Point(4, 4);
+            this.imgSlot_a1.Name = "imgSlot_a1";
+            this.imgSlot_a1.Size = new System.Drawing.Size(144, 144);
+            this.imgSlot_a1.TabIndex = 0;
+            this.imgSlot_a1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tableLayoutPanel2);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.ClientSize = new System.Drawing.Size(756, 539);
+            this.Controls.Add(this.tableSlots);
+            this.Controls.Add(this.tableMain);
             this.Name = "Form1";
             this.Text = "Betty\'s Slot Machine";
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel4.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.slot_a1)).EndInit();
+            this.tableMain.ResumeLayout(false);
+            this.tableMain.PerformLayout();
+            this.tableBid.ResumeLayout(false);
+            this.tableOptions.ResumeLayout(false);
+            this.tableOptions.PerformLayout();
+            this.tableSlots.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_c1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_b1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSlot_a1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -496,30 +499,30 @@
         #endregion
 
         private Button spinButton;
-        private TableLayoutPanel tableLayoutPanel1;
+        private TableLayoutPanel tableMain;
         private Label labelCash;
         private Label labelBid;
         private Label labelFreeSpins;
-        private TableLayoutPanel tableLayoutPanel2;
-        private PictureBox pictureBox14;
-        private PictureBox pictureBox13;
-        private PictureBox pictureBox12;
-        private PictureBox pictureBox11;
-        private PictureBox pictureBox10;
-        private PictureBox pictureBox9;
-        private PictureBox pictureBox8;
-        private PictureBox pictureBox7;
-        private PictureBox pictureBox6;
-        private PictureBox pictureBox5;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox1;
-        private PictureBox slot_a1;
-        private TableLayoutPanel tableLayoutPanel3;
+        private TableLayoutPanel tableSlots;
+        private PictureBox imgSlot_c5;
+        private PictureBox imgSlot_c4;
+        private PictureBox imgSlot_c3;
+        private PictureBox imgSlot_c2;
+        private PictureBox imgSlot_c1;
+        private PictureBox imgSlot_b5;
+        private PictureBox imgSlot_b4;
+        private PictureBox imgSlot_b3;
+        private PictureBox imgSlot_b2;
+        private PictureBox imgSlot_b1;
+        private PictureBox imgSlot_a5;
+        private PictureBox imgSlot_a4;
+        private PictureBox imgSlot_a3;
+        private PictureBox imgSlot_a2;
+        private PictureBox imgSlot_a1;
+        private TableLayoutPanel tableBid;
         private Button button2;
         private Button button1;
-        private TableLayoutPanel tableLayoutPanel4;
+        private TableLayoutPanel tableOptions;
         private CheckBox checkBox1;
         private CheckBox checkBox2;
     }
